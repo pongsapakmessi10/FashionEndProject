@@ -60,9 +60,7 @@ export default function Hero() {
             ลองใช้ AI วิเคราะห์รูปร่าง
             <ArrowRight size={20} className="group-hover/btn:translate-x-1 transition-transform" />
           </button>
-          <button className="text-black bg-neutral-100 px-8 py-4 rounded-full text-lg font-medium hover:bg-neutral-200 transition-all">
-            ดูแคตตาล็อก
-          </button>
+        
         </div>
       </div>
       
