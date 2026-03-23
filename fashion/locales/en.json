@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "howItWorks": "How it Works",
+    "trending": "Trending",
+    "shapes": "Body Shapes",
+    "signIn": "Sign In"
+  },
+  "login": {
+    "heroTitle1": "Elevate your style",
+    "heroTitle2": "with the power of AI",
+    "heroSubtitle": "Log in to view your body shape analysis history and get freshly curated style recommendations just for you.",
+    "backHome": "Back to Home",
+    "welcomeTitle": "Welcome back",
+    "welcomeSubtitle": "Please enter your details to sign in.",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "forgotPassword": "Forgot password?",
+    "rememberMe": "Remember me",
+    "signInBtn": "Sign In",
+    "orSignInWith": "Or sign in with",
+    "googleSignIn": "Sign in with Google",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up now"
+  }
+}

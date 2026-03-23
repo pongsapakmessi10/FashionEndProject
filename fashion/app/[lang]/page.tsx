@@ -6,13 +6,15 @@ import Trending from '@/components/Trending';
 import BodyShapes from '@/components/BodyShapes';
 import Footer from '@/components/Footer';
 
-// ไม่จำเป็นต้องใช้ 'use client' ในหน้านี้แล้ว เพราะ state ไปอยู่ใน Navbar แทน
-// ทำให้หน้านี้กลายเป็น Server Component ซึ่งดีต่อ SEO และ Performance ครับ
+// 1. เติม async ตรงนี้ และกำหนด type ให้ params เป็น Promise
+export default async function HomePage({ params }: { params: Promise<{ lang: 'th' | 'en' }> }) {
+  
+  // 2. ใช้ await เพื่อแกะค่า lang ออกมาจากกล่อง Promise
+  const { lang } = await params;
 
-export default function HomePage() {
   return (
     <div className="min-h-screen bg-white text-neutral-900 selection:bg-neutral-900 selection:text-white" style={{ fontFamily: 'var(--font-noto-sans-thai), sans-serif' }}>
-      <Navbar />
+      <Navbar lang={lang} />
       <Hero />
       <HowItWorks />
       <Trending />
