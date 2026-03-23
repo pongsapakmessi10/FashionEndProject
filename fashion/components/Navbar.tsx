@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
-            <span className="text-2xl font-bold tracking-tighter">AURA<span className="text-neutral-400">.AI</span></span>
+            <span className="text-2xl font-bold tracking-tighter">FLUKETOTO<span className="text-neutral-400">.SDU</span></span>
           </div>
           <div className="hidden md:flex space-x-8 items-center">
             <a href="#how-it-works" className="text-sm font-medium hover:text-neutral-500 transition-colors">วิธีใช้งาน</a>
