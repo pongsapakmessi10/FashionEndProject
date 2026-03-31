@@ -91,7 +91,7 @@ export default function Trending() {
   ];
 
   return (
-    <section id="trending" className="py-24">
+    <section id="trending" className="py-24 scroll-mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-end mb-12">
           <div>
