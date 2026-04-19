@@ -1,5 +1,6 @@
 import { Noto_Sans_Thai } from 'next/font/google';
 import '../globals.css';
+import ScrollToTop from '../../components/ScrollToTop';
 
 const notoSansThai = Noto_Sans_Thai({ 
   subsets: ['thai', 'latin'],
@@ -29,6 +30,7 @@ export default async function RootLayout({
     <html lang={lang} className={`${notoSansThai.variable}`}>
       <body className="font-sans">
         {children}
+        <ScrollToTop />
       </body>
     </html>
   );

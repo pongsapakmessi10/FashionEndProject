@@ -66,6 +66,15 @@ export default function Navbar({ lang }: { lang: "th" | "en" }) {
             <Link
               href={`/${lang}`}
               className="text-2xl font-bold tracking-tighter"
+              onClick={(e) => {
+                if (pathname === `/${lang}`) {
+                  e.preventDefault();
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }
+              }}
             >
               FLUKETOTO<span className="text-neutral-400">.SDU</span>
             </Link>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Shape Detector</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <section class="ai-detector">
+    
+    <div class="upload-section">
+      <div class="container">
+        <div class="upload-grid">
+
+            
+          
+          <div class="upload-text">
+
+             <div class="gif-preview">
+              <span>AI SCANNING PREVIEW (GIF)</span>
+              <div class="shimmer-effect"></div>
+            </div>
+
+            <h2>
+              นำรูปเข้ามา <br/>
+              เพื่อให้เราวิเคราะห์ <span class="gradient-text">Bodyshape</span> ของคุณ <br/>
+              และ <span>ค้นหาสไตล์ที่ใช่</span> <span class="underline-text">สำหรับคุณ</span>
+            </h2>
+            <p>AI ของเราถูกฝึกฝนมาเพื่อเข้าใจสรีระที่หลากหลาย พร้อมมอบคำแนะนำที่ออกแบบมาเพื่อคุณโดยเฉพาะ</p>
+            
+           
+          </div>
+
+          <div class="upload-box-wrapper">
+            <div class="upload-glow"></div>
+            <div class="upload-box" id="dropzone">
+              <div class="upload-content">
+                <div class="upload-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M12 12v9"/><path d="m16 16-4-4-4 4"/></svg>
+                </div>
+                <div class="upload-texts">
+                  <h3>ลากไฟล์มาวางที่นี่</h3>
+                  <p>รองรับไฟล์ JPG, PNG ความละเอียดไม่เกิน 10MB</p>
+                </div>
+                
+                <div class="divider">
+                  <div class="line"></div>
+                  <span>หรือ</span>
+                  <div class="line"></div>
+                </div>
+
+                <button class="upload-btn">เลือกรูปภาพจากเครื่อง</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="steps-section">
+      <div class="container steps-container">
+        
+        <div class="steps-header">
+          <h2>4 ขั้นตอน <br/><span>การทำงานง่ายๆ</span></h2>
+        </div>
+
+        <div class="steps-list">
+          <div class="step-vertical-line"></div>
+
+          <div class="step-item">
+            <div class="step-icon-box">
+              <span class="step-number-bg">01</span>
+              <div class="step-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+              </div>
+            </div>
+            <div class="step-text">
+              <div class="step-title-wrapper">
+                <h3>เริ่มต้นด้วยการอัปโหลดรูปภาพ</h3>
+                <span class="step-number-mobile">01</span>
+              </div>
+              <p>เลือกรุปถ่ายที่เห็นสัดส่วนชัดเจนของคุณเข้าสู่ระบบ เพื่อให้ AI เริ่มต้นการวิเคราะห์ได้อย่างแม่นยำที่สุด</p>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-icon-box">
+              <span class="step-number-bg">02</span>
+              <div class="step-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="2"/></svg>
+              </div>
+            </div>
+            <div class="step-text">
+              <div class="step-title-wrapper">
+                <h3>การประมวลผลด้วยระบบ AI</h3>
+                <span class="step-number-mobile">02</span>
+              </div>
+              <p>ให้ระบบ AI จะทำการสแกนและคำนวณโครงสร้างสรีระของคุณอย่างละเอียด เพื่อหาจุดเด่นและส่วนโค้งเว้าของร่างกาย</p>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-icon-box">
+              <span class="step-number-bg">03</span>
+              <div class="step-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4"/><path d="M15 13a5 5 0 0 0-6 0"/><path d="M17.5 14c0-2.5-2-5-4.5-5s-4.5 2.5-4.5 5"/><path d="M19 15a8 8 0 0 0-14 0"/><path d="M21 16a10 10 0 0 0-18 0"/></svg>
+              </div>
+            </div>
+            <div class="step-text">
+              <div class="step-title-wrapper">
+                <h3>วิเคราะห์และระบุประเภทรูปร่าง</h3>
+                <span class="step-number-mobile">03</span>
+              </div>
+              <p>ระบบจะสรุปผล Body Shape ของคุณว่าเป็นทรงไหน พร้อมคำแนะนำเบื้องต้นเกี่ยวกับลักษณะเด่นของหุ่นคุณ</p>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-icon-box">
+              <span class="step-number-bg">04</span>
+              <div class="step-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>
+              </div>
+            </div>
+            <div class="step-text">
+              <div class="step-title-wrapper">
+                <h3>ค้นหาสไตล์ที่ใช่ ตอบโจทย์ความชอบ</h3>
+                <span class="step-number-mobile">04</span>
+              </div>
+              <p>ระบบจะสุ่มสไตล์ที่เหมาะสมผนวกกับการกรอกข้อมูล "สิ่งที่คุณชอบ" เพื่อคัดสรรลุคที่ตรงใจ และส่งเสริมรูปร่างคุณให้ดีที่สุด</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <script>
+    const dropzone = document.getElementById('dropzone');
+    
+    dropzone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      dropzone.classList.add('dragging');
+    });
+
+    dropzone.addEventListener('dragleave', () => {
+      dropzone.classList.remove('dragging');
+    });
+
+    dropzone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropzone.classList.remove('dragging');
+      // เพิ่มฟังก์ชันอัปโหลดไฟล์ที่นี่
+    });
+  </script>
+</body>
+</html>
